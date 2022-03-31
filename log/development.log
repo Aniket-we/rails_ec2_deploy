@@ -223,3 +223,53 @@ Processing by ProfilesController#index as HTML
 Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.1ms | Allocations: 3437)
 
 
+Started GET "/" for 127.0.0.1 at 2022-03-30 07:57:26 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProfilesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles"[0m
+  ↳ app/views/profiles/index.html.erb:6
+  Rendered profiles/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1238)
+  Rendered layout layouts/application.html.erb (Duration: 48.5ms | Allocations: 34810)
+Completed 200 OK in 56ms (Views: 50.5ms | ActiveRecord: 0.1ms | Allocations: 39943)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-31 10:51:35 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProfilesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles"[0m
+  ↳ app/views/profiles/index.html.erb:6
+  Rendered profiles/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1151)
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 34755)
+Completed 200 OK in 64ms (Views: 56.9ms | ActiveRecord: 0.2ms | Allocations: 39888)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-31 10:57:03 +0530
+Processing by ProfilesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles"[0m
+  ↳ app/views/profiles/index.html.erb:6
+  Rendered profiles/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 730)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2762)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.2ms | Allocations: 3035)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-31 11:58:48 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProfilesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles"[0m
+  ↳ app/views/profiles/index.html.erb:6
+  Rendered profiles/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1240)
+  Rendered layout layouts/application.html.erb (Duration: 62.4ms | Allocations: 34371)
+Completed 200 OK in 84ms (Views: 66.1ms | ActiveRecord: 0.3ms | Allocations: 39463)
+
+

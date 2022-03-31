@@ -2,8 +2,8 @@
 lock "~> 3.17.0"
 
 set :application, 'urlshortner'
-set :repo_url, 'git@github.com:rkmmanivannan/rails-ec2-deploy.git' # Edit this to match your repository
-set :branch, :master
+set :repo_url, 'https://github.com/Aniket-we/rails_ec2_deploy.git' # Edit this to match your repository
+set :branch, :main
 set :deploy_to, '/home/deploy/urlshortner'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
